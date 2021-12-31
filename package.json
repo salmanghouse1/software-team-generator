@@ -1,0 +1,29 @@
+{
+    "devDependencies": {
+        "jest": "^27.4.5"
+    },
+    "dependencies": {
+        "inquirer": "^8.2.0"
+    },
+    "name": "engineer",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "jest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/salmanghouse1/software-team-generator.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/salmanghouse1/software-team-generator/issues"
+    },
+    "homepage": "https://github.com/salmanghouse1/software-team-generator#readme"
+}
