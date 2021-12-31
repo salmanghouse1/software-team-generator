@@ -16,18 +16,18 @@ test("Checking Properties of manager and instantiating new object and testing it
 
     expect(manager.getEmail()).toEqual(expect.any(String))
 
-    expect(manager.getID()).toEqual(expect.any(String))
+    expect(manager.getId()).toEqual(expect.any(String))
 
     expect(manager.getRole()).toEqual(expect.any(String))
 
     expect(manager.getOfficePhone()).toEqual(expect.any(String))
 
 
-    expect(manager.getRole()).toBe('manager')
+    expect(manager.getRole()).toBe('Manager')
 
     expect(manager.getEmail()).toBe('dave@gmail.com')
 
-    expect(manager.getID()).toBe('3')
+    expect(manager.getId()).toBe('3')
 
     expect(manager.getName()).toBe('Dave')
 

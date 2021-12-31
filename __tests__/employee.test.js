@@ -11,6 +11,7 @@ test("Checking Properties", () => {
 
         expect(employee).toHaveProperty('email');
 
+
         expect(employee.getName()).toEqual(expect.any(String))
 
         expect(employee.getEmail()).toEqual(expect.any(String))
