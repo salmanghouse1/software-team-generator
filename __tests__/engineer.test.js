@@ -1,4 +1,4 @@
-const engineer = require('../lib/engineer');
+const Engineer = require('../lib/engineer');
 
 
 
@@ -19,7 +19,7 @@ test("Checking Properties of engineer and instantiating new object and testing i
 
     expect(engineer.getEmail()).toEqual(expect.any(String))
 
-    expect(engineer.getId()).toEqual(expect.any(String))
+    expect(engineer.getID()).toEqual(expect.any(String))
 
     expect(engineer.getRole()).toEqual(expect.any(String))
 
@@ -31,12 +31,12 @@ test("Checking Properties of engineer and instantiating new object and testing i
     expect(engineer.getRole()).toBe('Engineer')
 
 
-    expect(engineer.getGithub()).toBe('Dave2')
+    expect(engineer.getGithub()).toBe('dave2')
 
 
     expect(engineer.getEmail()).toBe('dave@gmail.com')
 
-    expect(engineer.getId()).toBe('3')
+    expect(engineer.getID()).toBe('3')
 
     expect(engineer.getName()).toBe('Dave')
 
