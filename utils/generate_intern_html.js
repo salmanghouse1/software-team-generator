@@ -5,14 +5,14 @@ function generateIntern(data) {
         <!-- A employee card -->
         <div class="card">
             <!-- Job Title -->
-            <h2>Intern</h2>
+            <h2>${data.getRole()}</h2>
             <!-- details -->
             <div class="details">
                 <p>ID#:${data.id}</p>
                 
                 <p>${data.name}</p>
                 <p>Description:${data.email}</p>
-                <p>Phone Number:${data.school}</p>
+                <p>Phone Number:${data.getSchool()}</p>
             </div>
         </div></section>`
 

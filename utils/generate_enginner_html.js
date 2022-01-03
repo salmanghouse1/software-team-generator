@@ -5,14 +5,15 @@ function generateHTML(data) {
         <!-- A employee card -->
         <div class="card">
             <!-- Job Title -->
-            <h2>Engineer</h2>
+            <h2>${data.getRole()}</h2>
             <!-- details -->
             <div class="details">
                 <p>ID#:${data.name}</p>
                 
                 <p>${data.id}</p>
                 <p>Description:${data.email}</p>
-                <p>Phone Number:${data.github}</p>
+                <p>Github:${data.getGithub()}</p>
+                <p>office Number:${data.getOfficePhone()}</p>
             </div>
         </div></section>`
 
