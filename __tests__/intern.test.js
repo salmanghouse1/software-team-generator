@@ -21,7 +21,7 @@ test("Checking Properties of Intern and instantiating new object and testing it"
 
     expect(intern.getRole()).toEqual(expect.any(String))
 
-    expect(intern.getRole()).toBe('intern')
+    expect(intern.getRole()).toBe('Intern')
 
 
 
